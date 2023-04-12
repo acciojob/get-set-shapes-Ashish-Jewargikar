@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+.shape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rectangle, .square {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rectangle {
+  width: 40%;
+}
+
+.square {
+  width: 30%;
+}
+
+.dimension {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dimension label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.dimension span {
+  font-size: 20px;
+}
+
+.area, .perimeter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.area span, .perimeter span {
+  font-size: 24px;
+  font-weight: bold;
+}
